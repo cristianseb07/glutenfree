@@ -1,0 +1,224 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+widht: 500px;
+height: 300px;
+
+  background: url(../img/bg.jpg) repeat center top;
+  background-size: 100%;
+  }
+
+
+
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*Agregamos margenes inferiores a los parrafos*/
+p {
+  margin-bottom: 5%;
+}
+
+header {
+  background: rgba(0,50,0,0);
+  width: 100%;
+  text-decoration: none;
+  position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav {
+  float: left;
+    margin: 0;
+    left: 50%;
+text-decoration: none;
+    transform: translatex(-50%);
+    position: relative;/* Desplazamos el nav hacia la izquierda */
+
+}
+
+nav ul {
+  list-style: none;
+text-decoration: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial black, sans-serif;
+text-decoration: none;
+  font-size: calc(0.5rem + 1vw);
+}
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #3ead47;
+}
+
+.contenido {
+  padding-top: 20%;
+}
+
+.wrapper {
+  width: 50%;
+  margin: auto;
+  overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login-box {
+  width: 80%;
+  height: 90%;
+  background: #000;
+  color: #fff;
+  top: 70%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  
+}
+
+.login-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -105px;
+  left: calc(50% - 50px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"], .login-box input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color: #fff;
+}
+
+.login-box input[type="date"], .login-box input[type="date"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color:darkgray;
+  font-size: 16px;
+ }
+
+footer {
+  background: rgba(0,255,0,0.3);
+background-size:5%
+  font-family: 'beautyinthestardust'; src: url('../fonts/beautyinthestardust.ttf') format("truetype");
+   font-weight: normal;
+   font-style: normal;
+  position: absolute;
+top: 110%;
+left:0%;
+  
+  color: white;
+}
+
+
+  footer a {
+
+  margin: 0;
+
+top: -20%;
+right: 2%;
+left: 2%;
+bottom: 5%;
+
+
+  text-align: center;
+  font-size: calc(0.2rem + 1vw);
+
+color: #fff;
+
+
+
+}
+
+    
+  
